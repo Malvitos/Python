@@ -19,7 +19,7 @@ while True:
     print(palavra_escondida)
 
     #pedir ao jogador uma letra
-    letra = input('Digite uma leta: ')
+    letra = input('Digite uma letra: ')
 
     #verificar se a letra ja foi digitada
     if letra in letras_adivinhadas:
