@@ -14,3 +14,19 @@ letras_adivinhadas = []
 
 max_tentativas = 6
 
+while True:
+    #mostrar palavra escondida
+    print(palavra_escondida)
+
+    #pedir ao jogador uma letra
+    letra = input('Digite uma leta: ')
+
+    #verificar se a letra ja foi digitada
+    if letra in letras_adivinhadas:
+    print('Você já digitou essa letra. Tente outra!')
+    continue
+
+    #adicionar letra a lista de letras digitadas
+    letras_adivinhadas.append(letra)
+    
+ 
