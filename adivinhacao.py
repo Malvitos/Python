@@ -13,9 +13,9 @@ while True:
     if tentativa == numero_sorteado:
         print('Parabéns Você Acertou!')
         break
-else: tentativas -= 1
-if tentativas == 0:
-    print(f'Você Perdeu! O número correto era {numero_sorteado}')
-
-else: 
-    print(f'Numero Errado! Tente Novamente. Você ainda tem {tentativas} tentativas.')
+    else: tentativas -= 1
+    if tentativas == 0:
+        print(f'Você Perdeu! O número correto era {numero_sorteado}')
+        break
+    else: 
+        print(f'Numero Errado! Tente Novamente. Você ainda tem {tentativas} tentativas.')
