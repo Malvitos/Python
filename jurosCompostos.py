@@ -1,6 +1,6 @@
 from math import pow
 
-def compoosto(capital, juros, tempo):
+def composto(capital, juros, tempo):
     return capital*pow((1+juros),tempo)
 
 capital = float('Qual o capital de investimento?\n')
